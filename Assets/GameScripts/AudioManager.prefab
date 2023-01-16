@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7790932370347469733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7790932370347469732}
+  - component: {fileID: 7790932370347469731}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7790932370347469732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7790932370347469733}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7790932370347469731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7790932370347469733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dad1b95fff6a29686a0d4be6f9d21afd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: powerOn
+    clip: {fileID: 8300000, guid: 1f385d6d6a2aa1fb8a4486aef6d412e5, type: 3}
+    volume: 0.075
+    pitch: 1
+    mixerGroup: {fileID: -595014497552767827, guid: 14058bd3794794d468bdccd72dc16fa2,
+      type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: ElevatorsOpen
+    clip: {fileID: 8300000, guid: 8926c8a6dfdb1fb42a673ef78af06940, type: 3}
+    volume: 1
+    pitch: 1
+    mixerGroup: {fileID: -595014497552767827, guid: 14058bd3794794d468bdccd72dc16fa2,
+      type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: lobbyMusic
+    clip: {fileID: 8300000, guid: 63bf792b616585a5689ec61e1507336c, type: 3}
+    volume: 0.18
+    pitch: 1
+    mixerGroup: {fileID: 4361680438496039969, guid: 14058bd3794794d468bdccd72dc16fa2,
+      type: 2}
+    loop: 1
+    source: {fileID: 0}
+  - name: combatMusic
+    clip: {fileID: 8300000, guid: 384d73e1242d05a1b947509f8ef6633b, type: 3}
+    volume: 0.18
+    pitch: 1
+    mixerGroup: {fileID: 4361680438496039969, guid: 14058bd3794794d468bdccd72dc16fa2,
+      type: 2}
+    loop: 1
+    source: {fileID: 0}
+  - name: TakingDamage
+    clip: {fileID: 8300000, guid: 61f6d6f7188948c68b6a13663caf1a09, type: 3}
+    volume: 0.5
+    pitch: 1
+    mixerGroup: {fileID: -595014497552767827, guid: 14058bd3794794d468bdccd72dc16fa2,
+      type: 2}
+    loop: 0
+    source: {fileID: 0}
